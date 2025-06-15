@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="utf-8"/>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <!--metatextblock-->
+   <title>Зубной Эльф – Ваши специалисты по улыбке</title>
+
+   <meta property="og:title" content="Зубной Эльф – Ваши специалисты по улыбке"/>
+   <meta property="og:description" content=""/>
+   <meta property="og:type" content="website"/>
+   <meta property="og:image" content="https://static.tildacdn.info/tild3338-3832-4033-b961-396636306334/-/resize/504x/__1279.png"/>
+   <link rel="canonical" href="http://project12502621.tilda.ws">
+   <!--/metatextblock-->
+   <meta name="format-detection" content="telephone=no"/>
+   <meta http-equiv="x-dns-prefetch-control" content="on">
+   <link rel="dns-prefetch" href="https://ws.tildacdn.com">
+   <link rel="dns-prefetch" href="https://static.tildacdn.info">
+   <meta name="robots" content="nofollow"/>
+   <link rel="shortcut icon" href="images/icons/logo.ico" type="image/x-icon"/>
+
+   <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&subset=latin,cyrillic" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!-- Модальное окно -->
+<div class="modal modal-lg fade" id="contracts-modal" tabindex="-1" aria-labelledby="contracts-modalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+         <div class="modal-header pt-4 justify-content-end flex-wrap border-0">
+            <button type="button" class="btn-close bg-light p-2" style="border-radius: 50%" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            <h2 class="modal-title fs-5 text-center w-100" id="contracts-modalLabel">Договоры на оказание услуг</h2>
+         </div>
+         <div class="modal-body d-flex flex-column gap-3">
+            <a href="documents/Договор-взрослый.pdf" target="_blank" class="btn btn-light text-start">1. Договор на оказание услуг взрослым</a>
+            <a href="documents/Договор-детский.pdf" target="_blank" class="btn btn-light text-start">2. Договор на оказание услуг детям</a>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="modal modal-lg fade" id="prices-modal" tabindex="-1" aria-labelledby="contracts-modalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+         <div class="modal-header pt-4 justify-content-end flex-wrap border-0">
+            <button type="button" class="btn-close bg-light p-2" style="border-radius: 50%" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            <h2 class="modal-title fs-5 text-center w-100" id="prices-modalLabel">Прайс лист стоматологической клиники «Зубной эльф»</h2>
+         </div>
+         <div class="modal-body">
+            <div class="accordion accordion-flush" id="priceAccordion">
+
+               <!-- Прием и консультация -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        ПРИЕМ И КОНСУЛЬТАЦИЯ
+                     </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Первичный прием (осмотр, консультация) детского врача - стоматолога - <strong>1500&nbsp;руб.</strong></div>
+                        <div class="price-item">Первичный прием (осмотр, консультация) стоматолога - терапевта - <strong>1500&nbsp;руб.</strong></div>
+                        <div class="price-item">Первичный прием (осмотр, консультация) стоматолога хирурга - <strong>1500&nbsp;руб.</strong></div>
+                        <div class="price-item">Первичный прием (осмотр, консультация) стоматолога ортодонта - <strong>1500&nbsp;руб.</strong></div>
+                        <div class="price-item">Первичный прием (осмотр, консультация) стоматолога хирурга - имплантолога - <strong>1500&nbsp;руб.</strong></div>
+                        <div class="price-item">Первичный прием (осмотр, консультация) стоматолога ортопеда - гнатолога - <strong>1500&nbsp;руб.</strong></div>
+                        <div class="price-item">Консультация врача - стоматолога и справка по форме - <strong>1500&nbsp;руб.</strong></div>
+                        <div class="price-item">Повторный прием / консультация - <strong>1000&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Профилактика -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                        ПРОФИЛАКТИКА
+                     </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">профессиональная комплексная гигиена полости рта взрослым - <strong>5800&nbsp;руб.</strong></div>
+                        <div class="price-item">профессиональная комплексная гигиена полости рта для детей до 6 лет - <strong>2900&nbsp;руб.</strong></div>
+                        <div class="price-item">профессиональная комплексная гигиена полости рта для детей до 6-12 лет - <strong>3500&nbsp;руб.</strong></div>
+                        <div class="price-item">профессиональная комплексная гигиена полости рта для детей до 12-18 лет - <strong>4600&nbsp;руб.</strong></div>
+                        <div class="price-item">профессиональная комплексная гигиена полости рта для детей до 6 лет - <strong>500&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Терапевтические услуги -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                        ТЕРАПЕВТИЧЕСКИЕ УСЛУГИ
+                     </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Неосложненное лечение постоянного зуба - <strong>от 6420&nbsp;руб.</strong></div>
+                        <div class="price-item">Восстановление зуба под коронку - <strong>от 4280&nbsp;руб.</strong></div>
+                        <div class="price-item">Лечение пульпита постоянного зуба - <strong>от 14390&nbsp;руб.</strong></div>
+                        <div class="price-item">Лечение по острой боли - <strong>от 2640&nbsp;руб.</strong></div>
+                        <div class="price-item">профессиональная комплексная гигиена полости рта взрослым - <strong>8200-6800&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Ортопедические услуги -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                        ОРТОПЕДИЧЕСКИЕ УСЛУГИ
+                     </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">восстановление зуба временной коронкой - <strong>2200&nbsp;руб.</strong></div>
+                        <div class="price-item">коронка металлокерамическая - <strong>13800&nbsp;руб.</strong></div>
+                        <div class="price-item">коронка керамическая - <strong>26750&nbsp;руб.</strong></div>
+                        <div class="price-item">восстановление зуба вкладкой - <strong>от 19500&nbsp;руб.</strong></div>
+                        <div class="price-item">вкладка циркониевая, керамическая - <strong>от 27110&nbsp;руб.</strong></div>
+                        <div class="price-item">починка - <strong>2890&nbsp;руб.</strong></div>
+                        <div class="price-item">снятие 1 коронки - <strong>960&nbsp;руб.</strong></div>
+                        <div class="price-item">постоянная фиксация 1 коронки - <strong>1605&nbsp;руб.</strong></div>
+                        <div class="price-item">перебазировка протеза - <strong>4010&nbsp;руб.</strong></div>
+                        <div class="price-item">косметический протез - <strong>9790&nbsp;руб.</strong></div>
+                        <div class="price-item">протезирование съёмным протезом - <strong>от 26640 до 155150&nbsp;руб.</strong></div>
+                        <div class="price-item">винир - <strong>25000&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Брекеты -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                        БРЕКЕТЫ
+                     </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Металлические - <strong>45000&nbsp;руб.</strong></div>
+                        <div class="price-item">Ккерамические - <strong>60000&nbsp;руб.</strong></div>
+                        <div class="price-item">Комбинированные - <strong>55000&nbsp;руб.</strong></div>
+                        <div class="price-item">Частичка метал. - <strong>22000&nbsp;руб.</strong></div>
+                        <div class="price-item">Частичка керамическая - <strong>33000&nbsp;руб.</strong></div>
+                        <div class="price-item">Фиксация 1 зуб. ряд - <strong>15000&nbsp;руб.</strong></div>
+                        <div class="price-item">Снятие - <strong>10000&nbsp;руб.</strong></div>
+                        <div class="price-item">Ретейнер съёмный - <strong>8000&nbsp;руб.</strong></div>
+                        <div class="price-item">Несъёмный ретейнер - <strong>3300&nbsp;руб.</strong></div>
+                        <div class="price-item">Фиксация ретейнера - <strong>5000&nbsp;руб.</strong></div>
+                        <div class="price-item">Снятие ретейнера - <strong>3300&nbsp;руб.</strong></div>
+                        <div class="price-item">Ретенционная каппа - <strong>7000&nbsp;руб.</strong></div>
+                        <div class="price-item">Починка ретейнера - <strong>3300&nbsp;руб.</strong></div>
+                        <div class="price-item">Лечение на брекетах - <strong>80000 - 200000&nbsp;руб.</strong></div>
+                        <div class="price-item">Фиксация 1 брекет - <strong>1480 - 4850&nbsp;руб.</strong></div>
+                        <div class="price-item">Боксёрская шина - <strong>6500&nbsp;руб.</strong></div>
+                        <div class="price-item">Каппа при бурксизме - <strong>6500&nbsp;руб.</strong></div>
+                        <div class="price-item">Твин блок - <strong>26190&nbsp;руб.</strong></div>
+                        <div class="price-item">Минивинты - <strong>17000&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Ортодонтическое лечение -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
+                        ОРТОДОНТИЧЕСКОЕ ЛЕЧЕНИЕ
+                     </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Пластинка - <strong>15000&nbsp;руб.</strong></div>
+                        <div class="price-item">Хааса - <strong>32500 (фикс. 10000)&nbsp;руб.</strong></div>
+                        <div class="price-item">Гербаса - <strong>51000&nbsp;руб.</strong></div>
+                        <div class="price-item">Починка кламмера - <strong>3500&nbsp;руб.</strong></div>
+                        <div class="price-item">Диагностика орто - <strong>около 20000&nbsp;руб.</strong></div>
+                        <div class="price-item">Держатель места - <strong>10500&nbsp;руб.</strong></div>
+                        <div class="price-item">Слепки - <strong>2500&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Лечение на элайнерах -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                        ЛЕЧЕНИЕ НА ЭЛАЙНЕРАХ
+                     </button>
+                  </h2>
+                  <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Еврокаппа - <strong>52800&nbsp;руб.</strong></div>
+                        <div class="price-item">Лечение - <strong>220000&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Снимки -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                        СНИМКИ
+                     </button>
+                  </h2>
+                  <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Орто - <strong>1820&nbsp;руб.</strong></div>
+                        <div class="price-item">ТРГ - <strong>1820&nbsp;руб.</strong></div>
+                        <div class="price-item">Прицелка - <strong>360&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Хирургия -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                        ХИРУРГИЯ
+                     </button>
+                  </h2>
+                  <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Временный - <strong>970 -1900&nbsp;руб.</strong></div>
+                        <div class="price-item">Постоянный 1 кат. сложности - <strong>3780&nbsp;руб.</strong></div>
+                        <div class="price-item">Постоянный 2 кат. сложности - <strong>7070&nbsp;руб.</strong></div>
+                        <div class="price-item">Постоянный 3 кат. сложности - <strong>10380&nbsp;руб.</strong></div>
+                        <div class="price-item">Капюшон - <strong>1905&nbsp;руб.</strong></div>
+                        <div class="price-item">Резекция корня - <strong>9000&nbsp;руб.</strong></div>
+                        <div class="price-item">Удал. костного экзостаза - <strong>3400&nbsp;руб.</strong></div>
+                        <div class="price-item">Карман - <strong>3300&nbsp;руб.</strong></div>
+                        <div class="price-item">Уздечка языка - <strong>1750&nbsp;руб.</strong></div>
+                        <div class="price-item">Уздечка верх. губы - <strong>5040&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Взрослая -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                        ВЗРОСЛАЯ
+                     </button>
+                  </h2>
+                  <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Неосложное лечение - <strong>6420&nbsp;руб.</strong></div>
+                        <div class="price-item">Восстановление зуба под коронку - <strong>4280&nbsp;руб.</strong></div>
+                        <div class="price-item">Пульпит (лечение каналов + пломба + снимки) - <strong>14390 - 18390&nbsp;руб.</strong></div>
+                        <div class="price-item">Острая боль - <strong>2640&nbsp;руб.</strong></div>
+                        <div class="price-item">Профилактика комплит - <strong>8200 - 6800&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Гигиена -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven">
+                        ГИГИЕНА
+                     </button>
+                  </h2>
+                  <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Чайлд - <strong>2900&nbsp;руб.</strong></div>
+                        <div class="price-item">6-12 лет - <strong>3500&nbsp;руб.</strong></div>
+                        <div class="price-item">12-18 лет - <strong>4600&nbsp;руб.</strong></div>
+                        <div class="price-item">18+ - <strong>5800&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Детство -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve">
+                        ДЕТСТВО
+                     </button>
+                  </h2>
+                  <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">Герметизация - <strong>2620 (3413)&nbsp;руб.</strong></div>
+                        <div class="price-item">Леч. Неослож. Временный - <strong>3660 (4762)&nbsp;руб.</strong></div>
+                        <div class="price-item">Леч. Неослож. Постоянный - <strong>6420 (8346)&nbsp;руб.</strong></div>
+                        <div class="price-item">Пульпит временный - <strong>6400&nbsp;руб. + снимки</strong></div>
+                        <div class="price-item">Пульпит пост. Зуб (лечение каналов + пломба + снимки) - <strong>14390-18390&nbsp;руб.</strong></div>
+                        <div class="price-item">Гигиена Чайлд - <strong>3600 - 3200 (4500 - 3800)&nbsp;руб.</strong></div>
+                        <div class="price-item">Гигиена джуниор - <strong>4600 - 3900 (5500 - 4700)&nbsp;руб.</strong></div>
+                        <div class="price-item">Гигиена Адалт - <strong>6100 - 5100 (7300-6100)&nbsp;руб.</strong></div>
+                        <div class="price-item">Комплит - <strong>8200 - 6800 (9800 - 8200)&nbsp;руб.</strong></div>
+                        <div class="price-item">Псих. помощь - <strong>2670&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Импланты -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen">
+                        ИМПЛАНТ ПОД КЛЮЧ
+                     </button>
+                  </h2>
+                  <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#priceAccordion">
+                     <div class="accordion-body d-flex flex-column gap-3 px-0">
+                        <div class="price-item">(стан. абатмент) ЮЖНАЯ КОРЕЯ, ДЕНТИУМ - <strong>81500&nbsp;руб.</strong></div>
+                        <div class="price-item">(индив. абатмент) ЮЖНАЯ КОРЕЯ, ДЕНТИУМ - <strong>88910&nbsp;руб.</strong></div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="container-xl">
+   <header class="row align-items-center justify-content-between bg-info-subtle px-2 py-4 gap-2 gap-lg-0">
+      <div class="col-12 col-lg-4 d-flex flex-column flex-lg-row gap-2 gap-lg-4 gap-xl-5 align-items-center">
+         <a class="menu-link" href="#home">Главная</a>
+         <a class="menu-link" href="#about">О клинике</a>
+         <a class="menu-link" href="#doctors">Наши врачи</a>
+      </div>
+      <div class="d-none d-lg-block col-lg-4 ps-4"><h1 class="display-5 fw-bold text-center">Зубной Эльф</h1></div>
+      <div class="col-12 col-lg-4 d-flex flex-column flex-lg-row justify-content-end gap-4 gap-lg-3 gap-xl-5 align-items-center">
+         <a class="menu-link" href="#services">Услуги</a>
+         <a class="menu-link" href="#prices">Сервис-лист</a><a class="menu-link" href="#contacts">Контакты</a>
+      </div>
+   </header>
+   <div class="row align-items-center">
+      <div class="col-12 col-lg-3"></div>
+      <div class="col-12 col-md-7 col-lg-5">
+         <img src="images/logo/logo.png" alt="Логотип Зубной Эльф" class="img-fluid">
+      </div>
+      <div class="col-12 col-md-5 col-lg-4 text-center text-md-end ps-0 pe-0 pe-md-3 pe-lg-4 pe-xl-5">
+         <div class="fs-5 fw-bold">Тел.: +7 (916) 947-07-77</div>
+         <div class="fs-5 fw-bold">+7 (496) 577-70-07</div>
+         <div class="d-flex gap-3 mt-3 mb-5 justify-content-center justify-content-md-end">
+            <span class="t-sociallinks__item t-sociallinks__item_yandexmaps">
+               <a href="https://yandex.ru/maps/org/zubnoy_elf/109335010316/?ll=38.440490%2C55.798399&amp;z=17" target="_blank" rel="noopener noreferrer">
+                  <!-- SVG Яндекс.Карты -->
+                  <svg width="35" height="35" viewBox="0 0 2160 2160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M1027.92 157.077C1001.1 159.198 966.519 163.506 948.966 166.914C431.401 267.422 177.53 839.141 452.265 1285.49C504.008 1369.55 549.19 1416.73 689.27 1532.99C933.814 1735.94 1009.93 1829.8 1025.4 1947.53C1027.16 1960.9 1031.57 1975.24 1033.55 1974.01C1034.17 1973.63 1034.38 1974.09 1034.02 1975.03C1032.3 1979.53 1047.58 1994.84 1059.38 2000.45C1068.92 2004.99 1091.2 2005.22 1100.6 2000.88C1113.14 1995.1 1129.19 1978.84 1126.56 1974.59C1125.98 1973.65 1126.13 1973.38 1126.95 1973.89C1129.15 1975.25 1133.46 1961.55 1135.34 1947.25C1147.13 1857.64 1203.7 1771.83 1325.86 1658.27C1364.36 1622.49 1380.42 1608.69 1484.4 1522.07C1517.64 1494.37 1544.69 1471 1544.51 1470.13C1544.32 1469.26 1544.75 1468.92 1545.47 1469.36C1547.15 1470.4 1570.17 1450.08 1596.49 1424.31C1874.3 1152.44 1895.76 717.861 1646.16 418.6C1626.62 395.171 1578.49 346.296 1576.3 347.652C1575.28 348.279 1574.99 348.156 1575.51 347.316C1577.6 343.935 1522.78 300.516 1485.63 276.124C1351.58 188.12 1184.61 144.691 1027.92 157.077ZM1117.37 637.792C1353.85 670.956 1422.13 995.55 1217.83 1115.31C1214.82 1117.07 1212.63 1118.96 1212.97 1119.49C1213.3 1120.03 1212.88 1120.39 1212.04 1120.3C1211.2 1120.21 1203.57 1123.57 1195.09 1127.76C1129.08 1160.44 1052.4 1163.5 984.145 1136.18C978.016 1133.73 972.312 1132.12 971.471 1132.6C970.628 1133.09 970.349 1133.03 970.852 1132.48C972.053 1131.15 945.941 1116.88 944.164 1117.9C943.413 1118.32 943.199 1118.23 943.69 1117.69C944.181 1117.14 940.689 1114.02 935.929 1110.74C709.339 954.603 845.506 599.666 1117.37 637.792Z" fill="#FF4334"></path>
+                  </svg>
+               </a>
+            </span>
+            <span class="t-sociallinks__item t-sociallinks__item_vk">
+               <!-- Olezhba: link edited -->
+               <a href="https://vk.com/club230347354" target="_blank" rel="noopener noreferrer">
+                  <img src="images/icons/icons8-vk.svg" alt="VK" class="t-sociallinks__icon">
+               </a>
+            </span>
+            <span class="t-sociallinks__item t-sociallinks__item_telegram">
+               <a href="https://t.me/ZubnoyElf" target="_blank" rel="noopener noreferrer">
+                  <img src="images/icons/telegram.ico" alt="Telegram" class="t-sociallinks__icon">
+               </a>
+            </span>
+            <span class="t-sociallinks__item t-sociallinks__item_email">
+               <a href="mailto:valera.ignatenko2016@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/icons/email.ico" alt="Email" class="t-sociallinks__icon">
+               </a>
+            </span>
+            <span class="t-sociallinks__item t-sociallinks__item_whatsapp">
+               <a href="https://wa.me/79169470777" target="_blank" rel="noopener noreferrer">
+                  <img src="images/icons/whatsapp.ico" alt="WhatsApp" class="t-sociallinks__icon">
+               </a>
+            </span>
+         </div>
+         <a href="" class="btn btn-primary rounded-5 px-5 py-3 fw-bold">Консультация</a>
+      </div>
+   </div>
+   <div class="my-5">
+      <video width="100%" autoplay="" muted="" playsinline="" loop="">
+         <source src="videos/(4K)Зубной эльф.mp4" type="video/mp4">
+         Ваш браузер не поддерживает видео тег.
+      </video>
+   </div>
+   <div class="home my-5" id="home">
+      <div class="home__wrapp h-100 w-100 px-4 px-sm-5 pb-4">
+         <div class="home__content px-md-5 d-flex flex-column justify-content-end text-center">
+            <h2 class="h1">
+               Ваша улыбка — наша&nbsp;страсть!
+            </h2>
+            <div class="fs-5 px-xl-4">
+               <div>Мы стремимся предоставить вам&nbsp;качественную стоматологическую помощь и&nbsp;обеспечить красивую здоровую&nbsp;улыбку</div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="bg-info-subtle-light p-5">
+      <div id="proletCarousel" class="carousel slide position-relative overflow-hidden"
+           style="aspect-ratio: 16/9;"
+           data-bs-ride="carousel"
+           data-bs-pause="false"
+           data-bs-interval="3000">
+
+         <!-- Контейнер с изображениями -->
+         <div class="carousel-inner h-100">
+            <!-- Все 15 слайдов -->
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/2.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 2">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/3.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 3">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/4.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 4">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/5.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 5">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/6.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 6">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/7.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 7">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/9.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 9">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/10.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 10">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/11.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 11">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/12.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 12">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/13.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 13">
+            </div>
+            <div class="carousel-item active h-100">
+               <img src="images/Prolet/14.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 14">
+            </div>
+            <div class="carousel-item h-100">
+               <img src="images/Prolet/15.jpg"
+                    class="d-block w-100 h-100"
+                    alt="Prolet 15">
+            </div>
+         </div>
+
+         <!-- Кастомные стрелки управления -->
+         <button class="carousel-control-prev carousel-btn position-absolute"
+                 style="left: 20px; "
+                 type="button"
+                 data-bs-target="#proletCarousel"
+                 data-bs-slide="prev">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M15 18L9 12L15 6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+         </button>
+
+         <button class="carousel-control-next carousel-btn position-absolute"
+                 style="right: 20px;"
+                 type="button"
+                 data-bs-target="#proletCarousel"
+                 data-bs-slide="next">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M9 6L15 12L9 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+         </button>
+      </div>
+   </div>
+</div>
+
+<div class="container-fluid bg-info-subtle-light py-5 mb-4 text-center">
+   <a href="#contacts" class="btn btn-primary rounded-5 px-5 py-3 fw-bold">Записаться на прием</a>
+</div>
+
+<div class="container-xl">
+   <div class="row my-5 about" id="about">
+      <div class="col-12 col-lg-6 rounded-2 bg-info-subtle-light p-5">
+         <h2 class="h1 pb-4 position-relative about__title">О нас</h2>
+         <p class="fs-5 pe-sm-3 pe-xl-5 pt-4 text-secondary">
+            Наша миссия — забота о здоровье и&nbsp;красоте ваших зубов. Мы стремимся предоставлять высококачественные стоматологические услуги, основанные на&nbsp;современных технологиях и&nbsp;индивидуальном подходе к&nbsp;каждому&nbsp;пациенту.
+         </p>
+      </div>
+      <div class="col-12 col-lg-6 rounded-2 about__img">
+      </div>
+   </div>
+
+   <div class="text-center my-5">
+      <button type="button" class="btn btn-primary rounded-5 px-5 py-3 fw-bold" data-bs-toggle="modal" data-bs-target="#contracts-modal">
+         Договоры на оказание услуг
+      </button>
+   </div>
+
+   <div id="doctors" class="">
+      <h2 class="h1 text-center mb-5">Врачи нашей клиники</h2>
+      <div class="row row-gap-3">
+         <div class="col-12 col-md-6">
+            <img src="images/doctors/1.jpg" alt="Капранова Анна Владимировна. Врач - стоматолог детский"
+                 class="img-fluid">
+            <p class="fs-5 text-center mt-2">
+               Капранова Анна Владимировна. <br>
+               Врач - стоматолог детский
+            </p>
+         </div>
+         <div class="col-12 col-md-6">
+            <img src="images/doctors/2.jpg" alt="Черыкаева Надежда Александровна. Врач - стоматолог ортодонт"
+                 class="img-fluid">
+            <p class="fs-5 text-center mt-2">
+               Черыкаева Надежда Александровна. <br>
+               Врач - стоматолог ортодонт
+            </p>
+         </div>
+         <div class="col-12 col-md-6">
+            <img src="images/doctors/3.jpg" alt="Дерябина Анна Павловна. Врач - стоматолог детский"
+                 class="img-fluid">
+            <p class="fs-5 text-center mt-2">
+               Дерябина Анна Павловна. <br>
+               Врач - стоматолог детский
+            </p>
+         </div>
+         <div class="col-12 col-md-6">
+            <img src="images/doctors/4.jpg" alt="Бенц Алина Александровна. Врач - стоматолог гигиенист"
+                 class="img-fluid">
+            <p class="fs-5 text-center mt-2">
+               Бенц Алина Александровна. <br>Врач - стоматолог гигиенист
+            </p>
+         </div>
+         <div class="col-12 col-md-6">
+            <img src="images/doctors/5.jpg" alt="Натальченко Мария Петровна. Врач - стоматолог ортопед"
+                 class="img-fluid">
+            <p class="fs-5 text-center mt-2">
+               Натальченко Мария Петровна. <br>
+               Врач - стоматолог ортопед
+            </p>
+         </div>
+         <div class="col-12 col-md-6">
+            <img src="images/doctors/6.jpg" alt="Ревякина Анастасия Алексеевна. Врач - стоматолог терапевт"
+                 class="img-fluid">
+            <p class="fs-5 text-center mt-2">
+               Ревякина Анастасия Алексеевна. <br>
+               Врач - стоматолог терапевт
+            </p>
+         </div>
+      </div>
+   </div>
+
+   <div id="services" class="my-5">
+      <h2 class="h1 text-center">Услуги</h2>
+      <div class="d-flex justify-content-center my-5">
+         <p class="col-md-6 text-center text-secondary fs-5">
+            Мы предлагаем широкий спектр стоматологических услуг – от профилактики до сложных процедур, индивидуально подбираемых для каждого пациента
+         </p>
+      </div>
+      <div class="row row-gap-5">
+         <div class="col-12 col-md-6 text-center"><img src="images/services/1.svg" alt="" class="w-25">
+            <h3 class="my-3">Лечение кариеса и пульпита</h3>
+            <p>Современные методы лечения кариеса на ранних стадиях и комплексное лечение воспалений пульпы зуба с
+               сохранением его жизнеспособности
+            </p>
+         </div>
+         <div class="col-12 col-md-6 text-center"><img src="images/services/2.svg" alt="" class="w-25">
+            <h3 class="my-3">Ортодонтическое лечение</h3>
+            <p>Исправление прикуса и выравнивание зубов с помощью брекетов и элайнеров. Индивидуальный подход и
+               современные технологии.
+            </p>
+         </div>
+         <div class="col-12 col-md-6 text-center"><img src="images/services/3.svg" alt="" class="w-25">
+            <h3 class="my-3">Эстетическая стоматология</h3>
+            <p>Услуги по улучшению внешнего вида зубов: виниры, реставрация формы и цвета. Ваша улыбка — наша гордость.
+            </p>
+         </div>
+         <div class="col-12 col-md-6 text-center"><img src="images/services/4.svg" alt="" class="w-25">
+            <h3 class="my-3">Детская стоматология</h3>
+            <p>Бережный подход к лечению зубов у детей. Создаем комфортную атмосферу и используем современные методы лечения.
+            </p>
+         </div>
+         <div class="col-12 col-md-6 text-center"><img src="images/services/5.svg" alt="" class="w-25">
+            <h3 class="my-3">Стоматология ортопедическая</h3>
+            <p>Восстановление утраченных зубов с помощью современных протезов и имплантатов. Возвращаем красоту и функциональность вашей улыбке.
+            </p>
+         </div>
+         <div class="col-12 col-md-6 text-center"><img src="images/services/6.svg" alt="" class="w-25">
+            <h3 class="my-3">Хирургия</h3>
+            <p>Современные хирургические вмешательства: удаление зубов, имплантация, лечение воспалительных процессов.</p>
+         </div>
+      </div>
+   </div>
+
+   <div class="text-center my-5">
+      <button type="button" class="btn btn-primary rounded-5 px-5 py-3 fw-bold" data-bs-toggle="modal" data-bs-target="#prices-modal">
+         Посмотреть прайс-лист
+      </button>
+   </div>
+</div>
+
+<script src="bootstrap-5.3.0/js/bootstrap.bundle.min.js"/>
+</body>
+</html>
