@@ -181,6 +181,13 @@ a{
   display: flex !important;
 }
 
+@media screen and (max-width: 992px){
+  .about__title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 @media screen and (max-width: 768px){
   .home__content{
     aspect-ratio: 4/3;
