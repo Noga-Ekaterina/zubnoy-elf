@@ -132,14 +132,14 @@ a{
 
 .why-us{
   list-style: none;
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
+  text-align: center;
 }
 
-.why-us::before{
+.why-us h3::before{
   content: url("../images/icons/marker.svg");
+  display: inline-block;
   width: 3rem;
+  margin-right: 2rem;
 }
 
 .services-list-img{
